@@ -1,0 +1,1109 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Phanikumar S Tata">
+
+<title>CRV Documentation - 3&nbsp; Document</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./references.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./document.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Document</span></a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">CRV Documentation</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./summary.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Summary</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">References</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./document.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Document</span></span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#check-for-discrepancies-in-csr-tables-and-listing-reports." id="toc-check-for-discrepancies-in-csr-tables-and-listing-reports." class="nav-link active" data-scroll-target="#check-for-discrepancies-in-csr-tables-and-listing-reports."><span class="header-section-number">3.1</span> Check for discrepancies in CSR tables and listing reports.</a></li>
+  <li><a href="#purpose-short-description-of-crv" id="toc-purpose-short-description-of-crv" class="nav-link" data-scroll-target="#purpose-short-description-of-crv"><span class="header-section-number">3.2</span> Purpose / Short Description of CRV</a></li>
+  <li><a href="#user-requirements" id="toc-user-requirements" class="nav-link" data-scroll-target="#user-requirements"><span class="header-section-number">4</span> User Requirements</a>
+  <ul class="collapse">
+  <li><a href="#program-tool-macro-parameters" id="toc-program-tool-macro-parameters" class="nav-link" data-scroll-target="#program-tool-macro-parameters"><span class="header-section-number">4.1</span> Program / Tool / Macro Parameters</a>
+  <ul class="collapse">
+  <li><a href="#lib" id="toc-lib" class="nav-link" data-scroll-target="#lib"><span class="header-section-number">4.1.1</span> LIB</a></li>
+  <li><a href="#metadata" id="toc-metadata" class="nav-link" data-scroll-target="#metadata"><span class="header-section-number">4.1.2</span> METADATA</a></li>
+  <li><a href="#check1" id="toc-check1" class="nav-link" data-scroll-target="#check1"><span class="header-section-number">4.1.3</span> CHECK1</a></li>
+  <li><a href="#check2" id="toc-check2" class="nav-link" data-scroll-target="#check2"><span class="header-section-number">4.1.4</span> CHECK2:</a></li>
+  <li><a href="#check3" id="toc-check3" class="nav-link" data-scroll-target="#check3"><span class="header-section-number">4.1.5</span> CHECK3:</a></li>
+  <li><a href="#check4" id="toc-check4" class="nav-link" data-scroll-target="#check4"><span class="header-section-number">4.1.6</span> CHECK4:</a></li>
+  <li><a href="#check5" id="toc-check5" class="nav-link" data-scroll-target="#check5"><span class="header-section-number">4.1.7</span> CHECK5:</a></li>
+  <li><a href="#check6" id="toc-check6" class="nav-link" data-scroll-target="#check6"><span class="header-section-number">4.1.8</span> CHECK6:</a></li>
+  <li><a href="#check7" id="toc-check7" class="nav-link" data-scroll-target="#check7"><span class="header-section-number">4.1.9</span> CHECK7:</a></li>
+  <li><a href="#check8" id="toc-check8" class="nav-link" data-scroll-target="#check8"><span class="header-section-number">4.1.10</span> CHECK8:</a></li>
+  <li><a href="#check9" id="toc-check9" class="nav-link" data-scroll-target="#check9"><span class="header-section-number">4.1.11</span> CHECK9:</a></li>
+  <li><a href="#check10" id="toc-check10" class="nav-link" data-scroll-target="#check10"><span class="header-section-number">4.1.12</span> CHECK10:</a></li>
+  <li><a href="#check11" id="toc-check11" class="nav-link" data-scroll-target="#check11"><span class="header-section-number">4.1.13</span> CHECK11:</a></li>
+  <li><a href="#check12" id="toc-check12" class="nav-link" data-scroll-target="#check12"><span class="header-section-number">4.1.14</span> CHECK12:</a></li>
+  <li><a href="#checkx" id="toc-checkx" class="nav-link" data-scroll-target="#checkx"><span class="header-section-number">4.1.15</span> CHECKX:</a></li>
+  <li><a href="#report_type" id="toc-report_type" class="nav-link" data-scroll-target="#report_type"><span class="header-section-number">4.1.16</span> REPORT_TYPE</a></li>
+  <li><a href="#filefilter" id="toc-filefilter" class="nav-link" data-scroll-target="#filefilter"><span class="header-section-number">4.1.17</span> FILEFILTER</a></li>
+  <li><a href="#colors" id="toc-colors" class="nav-link" data-scroll-target="#colors"><span class="header-section-number">4.1.18</span> COLORS</a></li>
+  <li><a href="#keyword" id="toc-keyword" class="nav-link" data-scroll-target="#keyword"><span class="header-section-number">4.1.19</span> KEYWORD</a></li>
+  <li><a href="#firstobs" id="toc-firstobs" class="nav-link" data-scroll-target="#firstobs"><span class="header-section-number">4.1.20</span> FIRSTOBS</a></li>
+  <li><a href="#obs" id="toc-obs" class="nav-link" data-scroll-target="#obs"><span class="header-section-number">4.1.21</span> OBS</a></li>
+  <li><a href="#search_column_header" id="toc-search_column_header" class="nav-link" data-scroll-target="#search_column_header"><span class="header-section-number">4.1.22</span> SEARCH_COLUMN_HEADER</a></li>
+  <li><a href="#timing_window" id="toc-timing_window" class="nav-link" data-scroll-target="#timing_window"><span class="header-section-number">4.1.23</span> TIMING_WINDOW</a></li>
+  <li><a href="#help" id="toc-help" class="nav-link" data-scroll-target="#help"><span class="header-section-number">4.1.24</span> HELP</a></li>
+  <li><a href="#verbose" id="toc-verbose" class="nav-link" data-scroll-target="#verbose"><span class="header-section-number">4.1.25</span> VERBOSE</a></li>
+  <li><a href="#checks-and-error-handling" id="toc-checks-and-error-handling" class="nav-link" data-scroll-target="#checks-and-error-handling"><span class="header-section-number">4.1.26</span> Checks and Error Handling</a></li>
+  <li><a href="#processing-steps" id="toc-processing-steps" class="nav-link" data-scroll-target="#processing-steps"><span class="header-section-number">4.1.27</span> Processing Steps</a></li>
+  <li><a href="#output-generation" id="toc-output-generation" class="nav-link" data-scroll-target="#output-generation"><span class="header-section-number">4.1.28</span> Output Generation</a></li>
+  <li><a href="#status" id="toc-status" class="nav-link" data-scroll-target="#status"><span class="header-section-number">4.1.29</span> Status</a></li>
+  <li><a href="#constraints" id="toc-constraints" class="nav-link" data-scroll-target="#constraints"><span class="header-section-number">4.1.30</span> Constraints</a></li>
+  <li><a href="#documentfinish" id="toc-documentfinish" class="nav-link" data-scroll-target="#documentfinish"><span class="header-section-number">4.1.31</span> %DocumentFinish</a></li>
+  <li><a href="#appendix-a" id="toc-appendix-a" class="nav-link" data-scroll-target="#appendix-a"><span class="header-section-number">4.1.32</span> 3.Appendix A:</a></li>
+  <li><a href="#appendix-b" id="toc-appendix-b" class="nav-link" data-scroll-target="#appendix-b"><span class="header-section-number">4.1.33</span> Appendix B:</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Document</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Phanikumar S Tata </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="check-for-discrepancies-in-csr-tables-and-listing-reports." class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="check-for-discrepancies-in-csr-tables-and-listing-reports."><span class="header-section-number">3.1</span> Check for discrepancies in CSR tables and listing reports.</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image/Picture1.png" class="img-fluid figure-img" width="412"></p>
+</figure>
+</div>
+</section>
+<section id="purpose-short-description-of-crv" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="purpose-short-description-of-crv"><span class="header-section-number">3.2</span> Purpose / Short Description of CRV</h2>
+<p>Check for discrepancies in CSR tables and listing reports.&nbsp;</p>
+</section>
+<section id="user-requirements" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> User Requirements</h1>
+<ol type="1">
+<li><p>Check for reports with undefined titles</p></li>
+<li><p>Check for missing footnote references</p></li>
+<li><p>Check for duplicate records in reports</p></li>
+<li><p>Check report creation dates</p></li>
+<li><p>Compare program file names against NAME parameter in %iniprog call</p></li>
+<li><p>Check for empty reports</p></li>
+<li><p>Check for missing %iniprog and/or %endprog calls</p></li>
+<li><p>Check SAS log files</p></li>
+<li><p>Check AE reports for discrepancies</p></li>
+<li><p>Check Big N within each population group</p></li>
+<li><p>Check for hardcoded libnames and formats</p></li>
+<li><p>Check for reports with invalid values</p></li>
+<li><p>Run study specific checks</p></li>
+</ol>
+<section id="program-tool-macro-parameters" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="program-tool-macro-parameters"><span class="header-section-number">4.1</span> Program / Tool / Macro Parameters</h2>
+<p>The options for CRV_CHECK are provided to the macro through parameters. For a specification of the possible parameters and values for the options, refer to the following table. The effect and possible values of the options are described in the respective specifications below. Note that if any of the required parameters is not used appropriately, the macro will terminate with an error message.</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th><strong>Parameter</strong></th>
+<th><strong>Default</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><a href="#lib">LIB</a></td>
+<td>TLFMETA</td>
+<td>Library reference pointing to %datalist metadata</td>
+</tr>
+<tr class="even">
+<td><a href="#metadata">METADATA</a></td>
+<td>META</td>
+<td>Metadata dataset(s) for stored %datalist metadata</td>
+</tr>
+<tr class="odd">
+<td><a href="#check1">CHECK1</a></td>
+<td>Y</td>
+<td>Check for reports with undefined titles</td>
+</tr>
+<tr class="even">
+<td><a href="#check2">CHECK2:</a></td>
+<td>Y</td>
+<td>Check for missing footnote references</td>
+</tr>
+<tr class="odd">
+<td><a href="#check3">CHECK3:</a></td>
+<td>Y</td>
+<td>Check for duplicate records in reports</td>
+</tr>
+<tr class="even">
+<td><a href="#check4">CHECK4:</a></td>
+<td>Y</td>
+<td>Check report creation dates</td>
+</tr>
+<tr class="odd">
+<td><a href="#check5">CHECK5:</a></td>
+<td>Y</td>
+<td>Compare program file names against NAME parameter in %iniprog call</td>
+</tr>
+<tr class="even">
+<td><a href="#check6">CHECK6:</a></td>
+<td>Y</td>
+<td>Check for empty reports</td>
+</tr>
+<tr class="odd">
+<td><a href="#check7">CHECK7:</a></td>
+<td>Y</td>
+<td>Check for missing %iniprog and/or %endprog calls</td>
+</tr>
+<tr class="even">
+<td><a href="#check8">CHECK8:</a></td>
+<td>Y</td>
+<td>Check SAS log files</td>
+</tr>
+<tr class="odd">
+<td><a href="#check9">CHECK9:</a></td>
+<td>Y</td>
+<td>Check AE reports for discrepancies</td>
+</tr>
+<tr class="even">
+<td><a href="#check10">CHECK10:</a></td>
+<td>Y</td>
+<td>Check Big N within each population group</td>
+</tr>
+<tr class="odd">
+<td><a href="#check11">CHECK11:</a></td>
+<td>Y</td>
+<td>Check for hardcoded libnames and formats</td>
+</tr>
+<tr class="even">
+<td><a href="#check12">CHECK12:</a></td>
+<td>Y</td>
+<td>Check for reprots with invalid values</td>
+</tr>
+<tr class="odd">
+<td><a href="#checkx">CHECKX:</a></td>
+<td>N</td>
+<td>Run study specific check(s)</td>
+</tr>
+<tr class="even">
+<td><a href="#report_type">REPORT_TYPE</a></td>
+<td>HTML</td>
+<td>Store the result files in RTF or HTML (default) &nbsp;format, or ALL to produce both files</td>
+</tr>
+<tr class="odd">
+<td><a href="#colors">COLORS</a></td>
+<td>#ff4d4d|#dbb43d</td>
+<td><p>Color to use for flagged records in reports</p>
+<p>1st color in the list is used for the failed checks.</p>
+<p>2nd color in the list is used for the TBD checks.</p></td>
+</tr>
+<tr class="even">
+<td><a href="#keyword">KEYWORD</a></td>
+<td>UNIDENTIFIED</td>
+<td>Optional text string to identify missing titles</td>
+</tr>
+<tr class="odd">
+<td><a href="#firstobs">FIRSTOBS</a></td>
+<td>1</td>
+<td>Used to limit the number of reports to check. It specifies first observation to process.</td>
+</tr>
+<tr class="even">
+<td><a href="#obs">OBS</a></td>
+<td>MAX</td>
+<td>Specifies the last observation to process.</td>
+</tr>
+<tr class="odd">
+<td><a href="#search_column_header">SEARCH_COLUMN_HEADER</a></td>
+<td>Total</td>
+<td>Select a column header to search</td>
+</tr>
+<tr class="even">
+<td><a href="#timing_window">TIMING_WINDOW</a></td>
+<td>21600</td>
+<td>Allowed time interval between report creation dates, in seconds; the default is 6 hours</td>
+</tr>
+<tr class="odd">
+<td><a href="#filefilter">FILEFILTER</a></td>
+<td>.*</td>
+<td>Filter for file names to include in validation report; must be a valid regular expression</td>
+</tr>
+<tr class="even">
+<td><a href="#help">HELP</a></td>
+<td>N</td>
+<td>Display the CRV help messages</td>
+</tr>
+<tr class="odd">
+<td><a href="#verbose">VERBOSE</a></td>
+<td>N</td>
+<td>Print additional information into SAS log</td>
+</tr>
+</tbody>
+</table>
+<section id="lib" class="level3" data-number="4.1.1">
+<h3 data-number="4.1.1" class="anchored" data-anchor-id="lib"><span class="header-section-number">4.1.1</span> LIB</h3>
+<p>This is the SAS library reference points to the location of %datalist metadata directory. Refer to %startMostoMetadata documentation for instruction on how to create one. Following diagram is an overview of how metadata is created:</p>
+</section>
+<section id="metadata" class="level3" data-number="4.1.2">
+<h3 data-number="4.1.2" class="anchored" data-anchor-id="metadata"><span class="header-section-number">4.1.2</span> METADATA</h3>
+<p>This is the SAS dataset, or list of SAS datasets, in LIB library that contain the list of reports with the associated %datalist parameters used to create them. The default value of “META:”, for example, includes all dataset names beginning with “META”.</p>
+</section>
+<section id="check1" class="level3" data-number="4.1.3">
+<h3 data-number="4.1.3" class="anchored" data-anchor-id="check1"><span class="header-section-number">4.1.3</span> CHECK1</h3>
+<p><strong>Check for reports with undefined titles:</strong></p>
+<p>A report is considered having an undefined title if TITLE1 is missing or contains &amp;KEYWORD. The default for the parameter KEYWORD is “UNIDENTIFIED”.</p>
+<p>Sample Detail check for reports with undefined titles:</p>
+<p><img src="image/Picture4.png" class="img-fluid"></p>
+</section>
+<section id="check2" class="level3" data-number="4.1.4">
+<h3 data-number="4.1.4" class="anchored" data-anchor-id="check2"><span class="header-section-number">4.1.4</span> CHECK2:</h3>
+<p><strong>Check for missing footnote references</strong></p>
+<p>The search for possible footnote related issues includes the following:</p>
+<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Column references without a matching footnote</p>
+<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Row references without a matching footnote</p>
+<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Row header reference without a matching footnote</p>
+<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Value reference without a matching footnote</p>
+<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Footnote without the corresponding reference&nbsp;</p>
+<p>Refer to <a href="#appendix-b">Appendix B:&nbsp;</a> for detail.&nbsp;</p>
+</section>
+<section id="check3" class="level3" data-number="4.1.5">
+<h3 data-number="4.1.5" class="anchored" data-anchor-id="check3"><span class="header-section-number">4.1.5</span> CHECK3:</h3>
+<p><strong>Check for duplicate records in reports</strong></p>
+<p>This is about identifying duplicate rows in the reports.</p>
+<p>Refer to [APPENDIX C:] for detail.</p>
+</section>
+<section id="check4" class="level3" data-number="4.1.6">
+<h3 data-number="4.1.6" class="anchored" data-anchor-id="check4"><span class="header-section-number">4.1.6</span> CHECK4:</h3>
+<p><strong>Check report creation dates</strong></p>
+<p>If the gap between report creation date and that of the most recent report is greater than &amp;TIMING_WINDOW seconds, the report is flagged.</p>
+<p>Sample report:</p>
+<p><img src="image/Picture5.png" class="img-fluid"></p>
+</section>
+<section id="check5" class="level3" data-number="4.1.7">
+<h3 data-number="4.1.7" class="anchored" data-anchor-id="check5"><span class="header-section-number">4.1.7</span> CHECK5:</h3>
+<p><strong>Compare program file names against NAME parameter in %iniprog call</strong></p>
+<p>The report is flagged if NAME parameter in %iniprog call does not match the file name.</p>
+<p>Sample report:<br>
+<img src="image/Picture6.png" class="img-fluid"></p>
+</section>
+<section id="check6" class="level3" data-number="4.1.8">
+<h3 data-number="4.1.8" class="anchored" data-anchor-id="check6"><span class="header-section-number">4.1.8</span> CHECK6:</h3>
+<p><strong>Check for empty reports</strong></p>
+<p>All reports that contain no data are flagged.</p>
+<p>Sample report:</p>
+<p><img src="image/Picture7.png" class="img-fluid"></p>
+</section>
+<section id="check7" class="level3" data-number="4.1.9">
+<h3 data-number="4.1.9" class="anchored" data-anchor-id="check7"><span class="header-section-number">4.1.9</span> CHECK7:</h3>
+<p><strong>Check for missing %iniprog and/or %endprog calls</strong></p>
+<p>SAS programs are scanned for presence of %iniprog and %endprog calls. Reports that do not contain either of them are flagged.</p>
+<p>For Example:</p>
+<p><img src="image/Picture8.png" class="img-fluid"></p>
+<p>Note: ACL Owner column indicates the Unix ownership of the file. It is the output of the “ls –la” command.</p>
+<p>Columns Purpose, Author, Last Changed By, and Validation Level are the text retrieved from the program’s header.&nbsp;&nbsp;</p>
+</section>
+<section id="check8" class="level3" data-number="4.1.10">
+<h3 data-number="4.1.10" class="anchored" data-anchor-id="check8"><span class="header-section-number">4.1.10</span> CHECK8:</h3>
+<p><strong>Check SAS log files</strong></p>
+<p>SAS log files are scanned for presence of ERRORs, WARNINGs and critical NOTEs. Reports are flagged if any such lines are detected.</p>
+<p>Sample Report:</p>
+<p><img src="image/Picture9.png" class="img-fluid"></p>
+</section>
+<section id="check9" class="level3" data-number="4.1.11">
+<h3 data-number="4.1.11" class="anchored" data-anchor-id="check9"><span class="header-section-number">4.1.11</span> CHECK9:</h3>
+<p><strong>Check AE reports for discrepancies</strong></p>
+<p>Check numbers among AE Summary, Overall and Listing reports.</p>
+<p>AE reports are grouped to the following categories:&nbsp;&nbsp;</p>
+<p><u><strong>Population Set</strong></u>: safety analysis set, full analysis set, intent-to-treat, per-protocol,….</p>
+<p><u><strong>Timing Method:</strong></u>_all_, Treatment Emergent, Cutoff, After, Before, Between, Phase, Pre/Post treatment, Page Title</p>
+<p><u><strong>Scope:</strong></u>&nbsp; Any AE, SAE, Severe, Related, SAE, Discontinuation, non-Serious</p>
+<p><u><strong>Dictionary:</strong></u>MedDRA, CTCAE,&nbsp; MedDRA/CTCAE, not specific is default to MedDRA</p>
+<p>Reported numbers between each group has to match.</p>
+<p><img src="image/Picture10.png" class="img-fluid"></p>
+<p><img src="image/Picture11.png" class="img-fluid"></p>
+</section>
+<section id="check10" class="level3" data-number="4.1.12">
+<h3 data-number="4.1.12" class="anchored" data-anchor-id="check10"><span class="header-section-number">4.1.12</span> CHECK10:</h3>
+<p><strong>Check Big N within each population group</strong></p>
+<p>Check reports for discrepancies in reporting Big N for various populations.&nbsp; Reports that their Big N do not match within a population are flagged.</p>
+<p>Sample HTML detail report using SAS 9.4:</p>
+<p><img src="image/Picture12.png" class="img-fluid" width="561"></p>
+</section>
+<section id="check11" class="level3" data-number="4.1.13">
+<h3 data-number="4.1.13" class="anchored" data-anchor-id="check11"><span class="header-section-number">4.1.13</span> CHECK11:</h3>
+<p><strong>Check for hardcoded libnames and formats</strong></p>
+<p>Check for hardcoded libnames and formats. SAS programs are scanned for presence of LIBNAME and PROC FORMAT words. Reports that contain either of them are flagged.</p>
+<p>Sample HTML detail report using SAS 9.4:</p>
+<p><img src="image/Picture13.png" class="img-fluid"></p>
+</section>
+<section id="check12" class="level3" data-number="4.1.14">
+<h3 data-number="4.1.14" class="anchored" data-anchor-id="check12"><span class="header-section-number">4.1.14</span> CHECK12:</h3>
+<p><strong>Check for reports with invalid values</strong></p>
+<p>Check for reports with invalid values.</p>
+<p>For example:</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Check for UNCODED! fields.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. in case Taiwan is used in a Table, the following two checks are applied: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a.) If Country is used, it should always be “Country / Region”. This is also required for all titles &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; and footnotes.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b.) In no case the term “Province of China” should be used in combination with Taiwan<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Both checks are required to ensure we apply to all requirements for submissions in China and Taiwan.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3. Check for reports with invalid value of “&amp;”.</p>
+<p>Sample HTML summary report using SAS 9.4:</p>
+<p><img src="image/Picture14.png" class="img-fluid"></p>
+</section>
+<section id="checkx" class="level3" data-number="4.1.15">
+<h3 data-number="4.1.15" class="anchored" data-anchor-id="checkx"><span class="header-section-number">4.1.15</span> CHECKX:</h3>
+<p><strong>Run study specific checks</strong></p>
+<p>The default for this parameter is NO. When it is changed to YES, macro %CRV_CheckX0 is executed if it is defined. The macro is expected to contain study-specific checks.</p>
+</section>
+<section id="report_type" class="level3" data-number="4.1.16">
+<h3 data-number="4.1.16" class="anchored" data-anchor-id="report_type"><span class="header-section-number">4.1.16</span> REPORT_TYPE</h3>
+<p>This parameter determines whether the output is stored in HTML or RTF formats, or both if it is set to ALL (default).</p>
+</section>
+<section id="filefilter" class="level3" data-number="4.1.17">
+<h3 data-number="4.1.17" class="anchored" data-anchor-id="filefilter"><span class="header-section-number">4.1.17</span> FILEFILTER</h3>
+<p>This parameter defines a regular expression to subset specific reports. The default is “.*”, which selects every existing report.</p>
+</section>
+<section id="colors" class="level3" data-number="4.1.18">
+<h3 data-number="4.1.18" class="anchored" data-anchor-id="colors"><span class="header-section-number">4.1.18</span> COLORS</h3>
+<p>This parameter defines the colors used for flagged records in the reports. The default is set to Orange|Yellow.</p>
+<p>1<sup>st</sup> color in the list used for the failed checks. 2<sup>nd</sup> color in the list is used for the TBD checks.&nbsp;</p>
+</section>
+<section id="keyword" class="level3" data-number="4.1.19">
+<h3 data-number="4.1.19" class="anchored" data-anchor-id="keyword"><span class="header-section-number">4.1.19</span> KEYWORD</h3>
+<p>Optional text string to identify missing titles. A report is considered having an undefined title if TITLE1 is missing or contains &amp;KEYWORD. The default for the parameter KEYWORD is “UNIDENTIFIED”.</p>
+</section>
+<section id="firstobs" class="level3" data-number="4.1.20">
+<h3 data-number="4.1.20" class="anchored" data-anchor-id="firstobs"><span class="header-section-number">4.1.20</span> FIRSTOBS</h3>
+<p>It is used to limit the number of reports to check.&nbsp; Because of memory issue, we may need to limit the number of reports to check. It specifies the first observation to process.</p>
+</section>
+<section id="obs" class="level3" data-number="4.1.21">
+<h3 data-number="4.1.21" class="anchored" data-anchor-id="obs"><span class="header-section-number">4.1.21</span> OBS</h3>
+<p>It specifies the last observation to process. When FIRSTOBS is not also used, this corresponds to the number of observations that will be read. The default value is set to Max.</p>
+<p>Following is an example of selecting only the 5000 reports:</p>
+<p><strong>%crv_check(obs=5000)</strong></p>
+</section>
+<section id="search_column_header" class="level3" data-number="4.1.22">
+<h3 data-number="4.1.22" class="anchored" data-anchor-id="search_column_header"><span class="header-section-number">4.1.22</span> SEARCH_COLUMN_HEADER</h3>
+<p>This parameter defines a column header to search. The default is “Total”, which select columns with the header of “Total”.</p>
+</section>
+<section id="timing_window" class="level3" data-number="4.1.23">
+<h3 data-number="4.1.23" class="anchored" data-anchor-id="timing_window"><span class="header-section-number">4.1.23</span> TIMING_WINDOW</h3>
+<p>This parameter sets maximal time span, in seconds, allowed between individual reports. The default value is 21600, which is an equivalent of 6 hours.</p>
+</section>
+<section id="help" class="level3" data-number="4.1.24">
+<h3 data-number="4.1.24" class="anchored" data-anchor-id="help"><span class="header-section-number">4.1.24</span> HELP</h3>
+<p>The default for this parameter is NO. When it is changed to YES, help text is printed to the SAS log.</p>
+</section>
+<section id="verbose" class="level3" data-number="4.1.25">
+<h3 data-number="4.1.25" class="anchored" data-anchor-id="verbose"><span class="header-section-number">4.1.25</span> VERBOSE</h3>
+<p>The default for this parameter is NO. When it is changed to YES, general messages (including starting and finishing information) are printed to the SAS log. With the default setting, only ERROR and WARNING messages are printed.</p>
+</section>
+<section id="checks-and-error-handling" class="level3" data-number="4.1.26">
+<h3 data-number="4.1.26" class="anchored" data-anchor-id="checks-and-error-handling"><span class="header-section-number">4.1.26</span> Checks and Error Handling</h3>
+<p>The following checks and error handlings are performed.</p>
+<table class="table">
+<colgroup>
+<col style="width: 13%">
+<col style="width: 11%">
+<col style="width: 53%">
+<col style="width: 21%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>Type of check</strong></td>
+<td><strong>Object</strong></td>
+<td><strong>Descriptions</strong></td>
+<td><strong>Message / Reaction</strong></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>FORMAL</td>
+<td>LIB</td>
+<td>Must be a valid existing library</td>
+<td>Abort with an error message</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>FORMAL</td>
+<td>METADATA</td>
+<td>Must be existing dataset(s) (also in combination with INLIB if provided)</td>
+<td>Abort with an error message</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>FORMAL</td>
+<td>LIB METADATA</td>
+<td>LIB and METADATA must not be both missing</td>
+<td>Abort with an error message</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>FORMAL</td>
+<td>REPORT_TYPE</td>
+<td>Must use HTM, RTF or ALL</td>
+<td>Abort with an error message</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>FORMAL</td>
+<td>CHECK1-CHECK12</td>
+<td>Must either be N(O) or Y(ES)</td>
+<td>Abort with an error message</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>FORMAL</td>
+<td>CHECKX</td>
+<td>Must either be N(O) or Y(ES)</td>
+<td>Abort with an error message</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>FORMAL</td>
+<td>FIRSTOBS</td>
+<td>Must be a valid integer number. Cannot be empty.</td>
+<td>Abort with an error message</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>FORMAL</td>
+<td>OBS</td>
+<td>Must be a valid integer number. Cannot be empty.</td>
+<td>Abort with an error message</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>FORMAL</td>
+<td>TIMING_FLAG</td>
+<td>Must be a NUMERIC</td>
+<td>Abort with an error message</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>FORMAL</td>
+<td>HELP</td>
+<td>Must either be N(O) or Y(ES)</td>
+<td>Abort with an error message</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>FORMAL</td>
+<td>VERBOSE</td>
+<td>Must either be N(O) or Y(ES)</td>
+<td>Abort with an error message</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="processing-steps" class="level3" data-number="4.1.27">
+<h3 data-number="4.1.27" class="anchored" data-anchor-id="processing-steps"><span class="header-section-number">4.1.27</span> Processing Steps</h3>
+<p>CRV_check macro relies on the datalist metadata to identify discrepancies in the tables and reports.&nbsp; To create &nbsp;datalist metadata for a study, add the following lines to your run_all.sas program:</p>
+<p>%initsystems(initstudy=5)</p>
+<p>%initstudy(…….)</p>
+<p>%startMostoMetadata()</p>
+</section>
+<section id="output-generation" class="level3" data-number="4.1.28">
+<h3 data-number="4.1.28" class="anchored" data-anchor-id="output-generation"><span class="header-section-number">4.1.28</span> Output Generation</h3>
+<p>Based on the REPORT_TYPE parameter, CRV_Check macro generates an .HTM and/or a .RTF file(s) that includes the results from all the checks.</p>
+<p>Example:</p>
+<p>Clicking of the “Obs” number, detail report of the selected check will be displayed. Clicking on the “Status” column, summary report of the selected check will be displayed. &nbsp;</p>
+<p><img src="image/Picture15.png" class="img-fluid"></p>
+<p>To generate the above report, run the %crv_check macro at the end of your run_all.sas program.</p>
+<p>Or, you may also want to create a separate run_crv file to generate the report.</p>
+<p>For example:</p>
+<p>%initsystems(initstudy=5, spro=3, crv=2)</p>
+<p>%initstudy()</p>
+<p>%crv_check;</p>
+</section>
+<section id="status" class="level3" data-number="4.1.29">
+<h3 data-number="4.1.29" class="anchored" data-anchor-id="status"><span class="header-section-number">4.1.29</span> Status</h3>
+<p>Status field has the following options: Passed, Failed and TBD (To-Be-Determined).</p>
+<p>•&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>Passed:</strong> I know the values are correct.</p>
+<p>•&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>Failed</strong>: I know the values are incorrect.</p>
+<p>•&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>TBD</strong>: I don’t know if the values are correct.</p>
+<p>For some checks, by checking, I know that the values are correct or not. Passed or Failed.&nbsp; Checks like looking for missing titles. Titles are there or not? Yes or No</p>
+<p>Some checks like check#3, find duplicate records, it totally depends on the report.&nbsp; You can easily find duplicate records in the demography report.&nbsp; But in the death report, you don’t want to find duplicates.</p>
+<p>TBD is for those cases where the program cannot figure whether something is correct or not, so they need to be checked visually.</p>
+<p>Following is a list of valid status values for each check:<br>
+<img src="image/Picture16.png" class="img-fluid" width="588"></p>
+<p>Default colors associated with status values are:<br>
+<img src="image/Picture17.png" class="img-fluid"></p>
+<p>Within the CRV reports, there are default colors associated with these values: Yellow for “TBD”, Orange for “Failed”, default SAS background color for “Passed”. When running CRV in SAS 9.2, default background color is “Gray”. Running it with SAS 9.4, default background color is “White”.</p>
+<p>You can change these default colors with the use of CRV macro parameter.</p>
+</section>
+<section id="constraints" class="level3" data-number="4.1.30">
+<h3 data-number="4.1.30" class="anchored" data-anchor-id="constraints"><span class="header-section-number">4.1.30</span> Constraints</h3>
+<p>If your study has multiple runall programs, and you want to run them all at the same time, you need to specify a unique metadat parameter for the %startMostoMetadata macro.</p>
+<p>For Example:</p>
+<p>%startmostometadata(metadat=tlfmeta.META_Section14);</p>
+<p>%startmostometadata(metadat=tlfmeta.META_Section16);</p>
+</section>
+<section id="documentfinish" class="level3" data-number="4.1.31">
+<h3 data-number="4.1.31" class="anchored" data-anchor-id="documentfinish"><span class="header-section-number">4.1.31</span> %DocumentFinish</h3>
+<p>Following are the steps for storing the crv_check findings to a MS-Word document:</p>
+<p>1.&nbsp;&nbsp;&nbsp;&nbsp; Copy the</p>
+<p><a href="file://by-sas2p.bayer-ag.com/patdb/std_sg/stat/systems/crv/doc/crv2/template_crv_check.doc">\\by-sas2p.bayer-ag.com\patdb\std_sg\stat\systems\crv\doc\crv2\template_crv_check.doc</a> file to your study .pgm directory.</p>
+<p>2.&nbsp;&nbsp;&nbsp;&nbsp; Update the template_crv.doc header information.</p>
+<p>3.&nbsp;&nbsp;&nbsp;&nbsp; Add the following line to your runall program:</p>
+<p>%DocumentFinish(template=template_CRV_check.doc, tmpldir=&amp;prgdir, _outdir=&amp;outdir, ResultPrefix= )</p>
+<p>Sample CRV_Check.doc file:<br>
+<img src="image/Picture18.png" class="img-fluid"></p>
+</section>
+<section id="appendix-a" class="level3" data-number="4.1.32">
+<h3 data-number="4.1.32" class="anchored" data-anchor-id="appendix-a"><span class="header-section-number">4.1.32</span> 3.Appendix A:</h3>
+<p><strong>overall report structure</strong></p>
+<p>Following is the overall structure of the html file generated by the CRV_CHECK:</p>
+<table class="table">
+<colgroup>
+<col style="width: 5%">
+<col style="width: 65%">
+<col style="width: 5%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td></td>
+<td><table class="table">
+<colgroup>
+<col style="width: 5%">
+<col style="width: 48%">
+<col style="width: 5%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td></td>
+<td><pre><code>               Table of Contents</code></pre></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><pre><code>               Summary Section</code></pre></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td><pre><code>               Detail Section</code></pre></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><pre><code>               Check Specific</code></pre></td>
+<td></td>
+</tr>
+</tbody>
+</table></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Following is the overall structure of the .Rtf file generated by the CRV_CHECK:</p>
+<table class="table">
+<colgroup>
+<col style="width: 5%">
+<col style="width: 65%">
+<col style="width: 5%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td></td>
+<td><table class="table">
+<colgroup>
+<col style="width: 5%">
+<col style="width: 48%">
+<col style="width: 5%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td></td>
+<td><pre><code>               Table of Contents</code></pre></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><pre><code>               Summary Section</code></pre></td>
+<td></td>
+</tr>
+</tbody>
+</table></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="appendix-b" class="level3" data-number="4.1.33">
+<h3 data-number="4.1.33" class="anchored" data-anchor-id="appendix-b"><span class="header-section-number">4.1.33</span> Appendix B:</h3>
+<p><strong>Examples of footnote reference issues</strong></p>
+<p>Following is a sample summary report that shows reports with a number of duplicate records.<br>
+For example, in the first row, it shows we have three duplicate AE records.<br>
+Clicking on the number 3 in the duplicate records column will display the duplicate records.&nbsp;&nbsp;</p>
+<p>Example of checking for duplicate records in a report:&nbsp;<br>
+<img src="image/Picture25.png" class="img-fluid"></p>
+<p><img src="image/Picture26.png" class="img-fluid"></p>
+<p>By clicking on the report name on the last line, it will take you to the report.<br>
+<br>
+Following is the snapshot of the actual report, with its duplicate records.</p>
+<p><img src="image/Picture27.png" class="img-fluid"><br>
+When running a check against a study that includes the above report, this discrepancy will be identified.&nbsp;&nbsp;</p>
+<p>First row in the following summary report shows there are three duplicate AE records. Clicking on the number “3” in the duplicate records column will display the three duplicate records.<br>
+<img src="image/Picture28.png" class="img-fluid"></p>
+<p>Following report indicates three separate duplicate records in the AE listing.&nbsp;<br>
+Clicking on the report name on the last line will display the actual report.</p>
+<p><img src="image/Picture29.png" class="img-fluid"></p>
+
+
+</section>
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./references.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">References</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+</body></html>
